@@ -355,7 +355,16 @@
   transform: translateX(2px);
   transition: transform 0.2s ease;
 }
-.contact-left svg { ... }
+/* FORCE SVG SIZE – MOBILE FIX */
+.contact-left svg {
+  width: 18px !important;
+  height: 18px !important;
+  max-width: 18px;
+  max-height: 18px;
+  flex-shrink: 0;
+}
+
+
 
 
 
