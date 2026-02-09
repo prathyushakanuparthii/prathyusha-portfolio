@@ -351,4 +351,9 @@
     font-size: 1.05rem;
     line-height: 1.4;
   }
-    
+.contact-left a:hover svg {
+  transform: translateX(2px);
+  transition: transform 0.2s ease;
+}
+
+
