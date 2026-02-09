@@ -355,5 +355,7 @@
   transform: translateX(2px);
   transition: transform 0.2s ease;
 }
+.contact-left svg { ... }
+
 
 
