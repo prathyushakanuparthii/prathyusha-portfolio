@@ -1,0 +1,166 @@
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* =========================
+     BODY
+  ========================= */
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1f2937;
+    line-height: 1.7;
+    padding: 40px;
+  }
+  
+  /* =========================
+     PAGE CONTAINER
+  ========================= */
+  header,
+  section,
+  footer {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  
+  /* =========================
+     HEADER
+  ========================= */
+  header h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  
+  header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2563eb;
+    margin: 10px 0 16px;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #374151;
+    max-width: 800px;
+  }
+  
+  /* =========================
+     SECTION HEADINGS
+  ========================= */
+  h3 {
+    font-size: 22px;
+    color: #0f172a;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 6px;
+  }
+  
+  /* =========================
+     SKILLS
+  ========================= */
+  .skills-list {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #1f2937;
+  }
+  
+  /* =========================
+     PROJECTS
+  ========================= */
+  .project {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 30px;
+  }
+  
+  .project h4 {
+    font-size: 20px;
+    color: #111827;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+    color: #374151;
+  }
+  
+  .project ul {
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .project ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* =========================
+     PROJECT IMAGE
+  ========================= */
+  .project img {
+    width: 100%;
+    margin-top: 14px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+  }
+  
+  /* =========================
+     FOOTER
+  ========================= */
+  footer h3 {
+    border: none;
+  }
+  
+  footer p {
+    font-size: 15px;
+  }
+  
+  footer a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* =========================
+     RESPONSIVE
+  ========================= */
+  @media (max-width: 768px) {
+    body {
+      padding: 20px;
+    }
+  
+    header h1 {
+      font-size: 30px;
+    }
+  }
+  .skills-list li {
+    font-size: 15px;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+  
+  /* Bold skill name before dash */
+  .skills-list li strong {
+    font-weight: 600;
+  }
+  .skills-list li strong {
+    color: #2577eb;
+  }
+      
